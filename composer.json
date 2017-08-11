@@ -1,5 +1,15 @@
 {
+    "name": "ewu/silex-skeleton",
+    "description": "Silex framework skeleton for EWU apps",
+    "type": "project",
     "require": {
-        "silex/silex": "~2.0"
+        "silex/silex": "~2.0",
+        "twig/twig": "^1.34"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Silex-base\\": "app"
+        }
     }
 }

@@ -11,6 +11,10 @@ class ComposerStaticInit61b88e4d49888cc84f709fc8ffadac0d
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -20,6 +24,7 @@ class ComposerStaticInit61b88e4d49888cc84f709fc8ffadac0d
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Debug\\' => 24,
             'Silex\\' => 6,
+            'Silex-base\\' => 11,
         ),
         'P' => 
         array (
@@ -29,6 +34,10 @@ class ComposerStaticInit61b88e4d49888cc84f709fc8ffadac0d
     );
 
     public static $prefixDirsPsr4 = array (
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -57,6 +66,10 @@ class ComposerStaticInit61b88e4d49888cc84f709fc8ffadac0d
         array (
             0 => __DIR__ . '/..' . '/silex/silex/src/Silex',
         ),
+        'Silex-base\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -68,6 +81,13 @@ class ComposerStaticInit61b88e4d49888cc84f709fc8ffadac0d
     );
 
     public static $prefixesPsr0 = array (
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
         'P' => 
         array (
             'Pimple' => 
